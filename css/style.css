@@ -1,0 +1,566 @@
+body{    font-family: "Open Sans","Helvetica Neue",sans-serif;font-weight: 400;}
+p{
+    font-family: Roboto sans-serif;
+}
+/*header css...................................*/
+.navbar-nav {
+    background-color: #f9f9f9;
+    padding: 2px;
+}
+ul.topmenu {
+    margin-bottom: 10px!important;
+}
+.header {
+    font-size: 11px;
+}
+.row.logo_content {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.head-content li {
+    
+    
+    float: left;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #576972;
+
+}
+ul.topmenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li.float-right {
+    margin-right: 20px;
+    margin: 10px;
+}
+a.head-btn {
+    border-left: 2px solid #576972;
+    padding-left: 10px;
+    color: #0a0a0a;
+}
+header.standart.fix {
+    border-bottom: 2px solid #ea4444 !important;
+}
+nav.menu-main-container {
+    position: relative;
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: -21px;
+}
+ul{list-style:none!important}
+
+li.menu-item {
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+}
+a.menu-names {
+    margin: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #313b3d!important;
+    text-decoration: none;
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+a.menu-names:hover {
+    /* background: #ea4444; */
+    border-top: 1px solid #ea4444;
+}
+
+/*dropdown */
+.dropbtn {
+   
+    border: none;
+  }
+  
+  ul.dropdown {
+    min-width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    width: 167px;
+    background: #232b2d;
+    z-index: 99;
+    margin: 0px;
+    margin-top: 10px;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  button.dropbtn {
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:#ea4444;color:white!important;text-decoration: none!important;}
+
+  button.dropbtn.menu-item.home_btn {
+    background: #ea4444;
+}
+li.menu-item:hover ul.dropdown {
+    display: block;
+}
+a.sub-menu-items {
+    color: #FFF;
+    opacity: .8;
+    display: block;
+    font-size: 12px;
+    border-bottom: 1px dotted rgba(255,255,255,.3);
+    padding: 10px;
+    
+}
+a.sub-menu-items:hover {
+    background: #EA4444;
+    color: white;
+}
+ul.dropdown.sub-menu {
+    padding: 10px;
+}
+a.sub-menu-items {
+    text-decoration: none;
+}
+
+
+
+
+
+/*Footer css...................................*/
+footer {
+    clear: both;
+    background: #313B3D;
+        background-color: rgb(49, 59, 61);
+    position: relative;
+    padding: 30px 0;
+    font-size: 14px;
+    color: rgba(255,255,255,.6);
+}
+.footertitle{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.work{
+    color: #ffffff;
+    font-family: 'Roboto Condensed' , sans-serif;
+}
+.listing{
+    list-style: none;
+    padding: 1px;
+    font-family: 'Roboto Condensed' , sans-serif;
+}
+img.footer-logo {
+    max-width: 48px;
+    float: left;
+    margin: -15px 10px 0 0;
+    padding: 0;
+    opacity: .6;
+}
+.foooter_bottom {
+    background: #232b2d;
+    padding: 40px 0 20px;
+    font-size: 11px;
+}
+header.standart.fix {
+    border-bottom: 2px solid #ea4444 !important;
+    background: white;
+}
+
+/*Home.....................................*/
+.card.home-img {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+img.hm-img {
+    max-width: 251px;
+}
+a.img-tag {
+    font-size: 19px;
+    color: black;
+    margin-top: 13px;
+    text-decoration: none;
+}
+
+
+/*About ................................................. */
+div#first-id {
+    padding-top: 25px;
+}
+
+/*Becom an instructor........................*/
+.pagetitle {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+span.star {
+    color: red;
+}
+label.form-name {
+    float: left;
+}  
+select#date {
+    width: 32%;
+    display: inline;
+}             
+label.form-name {
+    padding: 0px;
+    margin: 0px;
+}
+.col-md-6.form {
+    background: white;
+    line-height: 40px;
+    padding: 65px;
+}
+label.form-name {
+    font-weight: bold;
+}
+.form_head_tag {
+    text-align: left;
+}
+.zero {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+button.btn.btn-file {
+    float: left;
+    background: #78C8CE;
+    color: white;
+}
+button.btn.btn-file:hover {
+    background: white;
+    color: #78C8CE;
+}
+
+}
+textarea {
+    overflow: auto;
+    height: 50px;
+    margin-bottom: 10px;
+}
+button.btn.float-left {
+    width: 25%;
+    font-weight: bold;
+    height: 42px;
+}
+/*My Account */
+input#exampleCheck1 {
+    margin-top: 10px;
+}
+button.btn.btn-login:hover {
+    background: #DDDDDD;
+    color: #515151;
+}
+button.btn.btn-login {
+    width: 87px;
+    font-weight: bold;
+    background: #EA4444;
+    color: white;
+}
+.login_form {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+.container.myacc {
+    background: white;
+    /* padding: 30px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h1.login {
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+span.btn-tag {
+    font-size: 17px;
+    font-weight: bold;
+    display: inherit;
+}
+.col-md-3.text-center {
+    padding: 20px;
+    /* line-height: 81px; */
+}
+span.btn-tag {
+    margin-bottom: 40px;
+}
+btn.enroll_btn {
+    /* width: 40%; */
+    padding: 10px;
+    background: #EA4444;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+/* Presenting and public speaking...............................*/
+ul.page-names {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    list-style: none!important;
+}
+.wrapper {
+    background: #232b2d;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.item-header-content {
+    padding: 20px 20px 10px !IMPORTANT;
+    color: white;
+}
+strong.stars {
+    color: gold;
+}
+a.no_style {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+h1.page-tag {
+    margin: 10px 0px;
+}
+.header-avatar {
+    border-radius: 2px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.item-list-tab {
+    background: black;
+    color: white;
+    /* display: inline-flex; */
+    width: 75%;
+}
+ul.item-ul {
+    display: inline-flex;
+    padding: 0;
+}
+li.list_item {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav.navbar.bg-dark {
+    width: 75%;
+}
+nav.navbar-light.bg-dark.sticky-bottom {
+    
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+a.home {
+    padding: 10px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+}
+a.list-itm {
+    list-style: none;
+    margin-left: 15px;
+    padding: 10px;
+    color: white;
+}
+a.list-itm:hover {
+    background: #EA4444;
+    color: white;
+    list-style: none;
+}
+a.list-itm {
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.item-body {
+    background: #FFF;
+    padding: 30px;
+    border-radius: 2px;
+}
+.small-dec {
+    font-size: 14px;
+}
+ul.course-li {
+    list-style: unset!important;
+}
+h3.course-heading {
+    clear: both;
+    font-size: 16px;
+    padding: 8px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgba(0,0,0,.08);
+}
+.messege {
+    padding: 12px 24px;
+    border: 1px solid #f0c36d;
+    background-color: #f9edbe;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.block {
+    position: relative;
+    overflow: hidden;
+}
+h4.block-title {
+    font-size: 2rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+}
+.widget {
+    position: relative;
+    background: #FFF;
+    padding: 10px 20px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 1px #EEE;
+    box-shadow: 0 1px 1px #EEE;
+}
+button.btn.course-btn {
+    width: 100%;
+    padding: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background: #ea4444;
+    color: white!important;
+}
+a.apply-btn {
+    color: white;
+    font-weight: bold;
+}
+.course-detailes {
+    margin-top: 68px;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
+span.icon {
+    margin-left: 27px;
+}
+.admin-item {
+    /* background: white; */
+    margin-top: 55px;
+    margin-left: 30px;
+    padding: 10px;
+}
+h3.inst {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+h5.ad {
+    font-size: unset;
+    font-weight: bold;
+}
+h4.block-title {
+    font-size: 18px;
+}
+h3.course-heading {
+    margin-top: 50px;
+}
+img.avatar-img {
+    width: 100%;
+}
+.reviews {
+    margin: 0 -15px;
+    text-align: center;
+}
+h2.NA {
+    font-size: 120px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin: 0;
+}
+.rating {
+    margin-left: 80px;
+}
+ul.rating-breakup {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+strong.rating-style {
+    border-bottom: 1px solid #FFF;
+    background: #FAFAFA;
+    height: 40px;
+    border-radius: 2px;
+    display: block;
+    overflow: hidden;
+    width: 306px;
+    margin-left: 30px;
+
+}
+
+
+/* English page */
+tr.course-section {
+    border: 1px solid #9e9898;
+}
+
+/*............Contuct Us */
+.wrapper1 {
+    background: white;
+    padding: 35px;
+    font-size: 14px;
+    color: #0a0000;
+}
+input#exampleInputEmail1 {
+    margin: 14px 0px;
+}
+input.msg {
+    width: 100%;
+    padding-bottom: 70px;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+button.btn.float-left.REGISTER {
+    font-size: 13px;
+    margin-top: 15px;
+}
+button.btn.btn-primary {
+    background: #ea4444;
+    border: none;
+    color: white;
+    padding: 6px 20px;
+}
+/* Accept page*/
+ul.txt-list {
+    list-style: unset!important;
+}
+p.accpt-txt {
+    font-size: 13px;
+}
